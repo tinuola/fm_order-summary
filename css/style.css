@@ -186,5 +186,6 @@ footer {
 }
 
 .fm-attribution a {
-  color: var(--primary-pale-blue)
+  color: var(--primary-pale-blue);
+  text-decoration: underline;
 }
