@@ -44,16 +44,10 @@ body {
 }
 
 .container {
-  min-height: 90vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-@media(max-width: 600px){
-  .container {
-    min-height: 95vh;
-  }
 }
 
 main {
