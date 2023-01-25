@@ -16,9 +16,8 @@ body {
   line-height: 1.5;
   font-family: var(--primary-font);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
   background-color: var(--primary-pale-blue);
   background-image: url(../assets/images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
@@ -42,6 +41,19 @@ body {
   overflow: hidden;
   padding: 0;
   position: absolute;
+}
+
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media(max-width: 600px){
+  .container {
+    min-height: 95vh;
+  }
 }
 
 main {
@@ -146,16 +158,25 @@ button:hover {
   cursor:pointer;
 }
 
-.fm-attribution-row {
+footer {
+  background: var(--primary-bright-blue);
+  padding: .75rem 1.25rem .75rem 0;
+}
 
+@media(max-width: 600px) {
+  footer {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
 }
 
 .fm-attribution {
-  font-size: .75rem;
-  line-height: 1.5;
-  text-align: center;
+  font-size: .65rem;
+  letter-spacing: .1rem;
+  text-align: right;
+  color: var(--primary-pale-blue)
 }
 
 .fm-attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--primary-pale-blue)
 }
