@@ -96,6 +96,14 @@ main {
   cursor: pointer;
 }
 
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
 .subscription-block {
   display: flex;
   padding: 1rem;
