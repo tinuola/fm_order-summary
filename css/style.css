@@ -11,11 +11,7 @@ body {
   font-family: var(--primary-font);
   font-size: 15px;
   display: grid;
-  grid-template-rows: 1fr auto;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-end; */
+  grid-template-rows: auto 1fr auto;
   background-color: var(--primary-pale-blue);
   background-image: url(../assets/images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
@@ -39,13 +35,6 @@ body {
   overflow: hidden;
   padding: 0;
   position: absolute;
-}
-
-.container {
-  /* min-height: 95vh; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 main {
@@ -218,7 +207,7 @@ button {
 
 @media (min-width: 768px) {
   button {
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
   }
 }
 
