@@ -50,13 +50,18 @@ body {
 
 main {
   max-width: 327px;
-  min-height: 567px;
   margin: 0 auto;
   border-radius: 0.75rem;
   overflow: hidden;
   text-align: center;
   background-color: #fff;
   align-self: center;
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 450px;
+  }
 }
 
 .hero-image-wrapper {
@@ -67,14 +72,32 @@ main {
   height: 160px;
 }
 
+@media (min-width: 768px) {
+  .hero-image-wrapper {
+    height: 220px;
+  }
+}
+
 .content-wrapper {
   padding: 2rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    padding: 3rem;
+  }
 }
 
 .content-wrapper h2 {
   color: var(--neutral-dark-blue);
   font-size: 1.375rem;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .content-wrapper h2 {
+    font-size: 1.75rem;
+  }
 }
 
 .content-wrapper > p,
@@ -85,6 +108,13 @@ main {
 .content-wrapper > p {
   font-weight: 500;
   padding: 0 0.5rem;
+  line-height: 26px;
+}
+
+@media (min-width: 768px) {
+  .content-wrapper > p {
+    font-size: 1rem;
+  }
 }
 
 .content-wrapper > a {
@@ -104,6 +134,14 @@ main {
   background-color: var(--neutral-pale-blue);
 }
 
+@media (min-width: 768px) {
+  .subscription-block {
+    padding: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .subscription-block > * {
   align-self: center;
 }
@@ -120,10 +158,22 @@ main {
   margin-right: 3.125rem;
 }
 
+@media (min-width: 768px) {
+  .subscription-block div {
+    margin-right: 5.875rem;
+  }
+}
+
 .subscription-block a {
   font-size: 13px;
   font-weight: 700;
   color: var(--primary-bright-blue);
+}
+
+@media (min-width: 768px) {
+  .subscription-block a {
+    font-size: 14px;
+  }
 }
 
 .subscription-block a:hover {
@@ -133,6 +183,12 @@ main {
 
 .subscription-block p {
   font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .subscription-block p {
+    font-size: 1rem;
+  }
 }
 
 .subscription-block div p:nth-of-type(1) {
@@ -158,6 +214,12 @@ button {
   box-shadow: 0px 31px 32px -11px rgba(56, 41, 224, 0.29);
   -webkit-box-shadow: 1px 31px 32px -11px rgba(56, 41, 224, 0.29);
   -moz-box-shadow: 1px 31px 32px -11px rgba(56, 41, 224, 0.29);
+}
+
+@media (min-width: 768px) {
+  button {
+    margin-bottom: 2rem;
+  }
 }
 
 button:hover {
