@@ -18,7 +18,7 @@ Live Site: [https://tinuola.github.io/fm_order-summary/](https://tinuola.github.
 
 ### Tools & Resources
 
-- HTML, CSS, JavaScript
+- HTML, CSS
 - CSS Resets
 
 _Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
